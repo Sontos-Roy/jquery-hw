@@ -1,0 +1,96 @@
+.question{
+	background-color: gray;
+    padding: 15px;
+    cursor: pointer;
+}
+.ans{
+	background-color: black;
+	color: white;
+	display: none;
+    padding: 15px;
+}
+.c_p{
+	cursor: pointer;
+}
+.b{
+	display: none;
+}
+
+  #dragg { 
+  	width: 150px; 
+  	height: 150px; 
+  	padding: 0.5em;
+  	background-color: black; 
+  	color: white;
+  	text-align: center;
+  }
+
+  #draggable { 
+  	width: 100px; 
+  	height: 100px; 
+  	padding: 0.5em; 
+  	float: left; 
+  	margin: 10px 10px 10px 0;
+  	background-color: gray; 
+  }
+  #droppable { 
+  width: 150px; 
+  height: 150px; 
+  padding: 0.5em; 
+  float: left; 
+  margin: 10px; 
+}
+
+  #resizable { 
+  width: 150px; 
+  height: 150px; 
+  padding: 0.5em; 
+}
+  #resizable h3 { 
+  text-align: center; 
+  margin: 0; 
+}
+.dropable{
+
+}
+.resize{
+	margin-top: 150px;
+}
+
+  #feedback { font-size: 1.4em; }
+  #selectable .ui-selecting { background: #FECA40; }
+  #selectable .ui-selected { background: #F39814; color: white; }
+  
+  #selectable { 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  width: 60%; 
+}
+  
+  #selectable li {
+  text-align: center; 
+  margin: 3px; 
+  padding: 30px; 
+  font-size: 16px; 
+  height: 18px; 
+}
+
+  #sortable { 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  width: 60%; 
+}
+  #sortable li { 
+  margin: 0 3px 3px 3px; 
+  padding: 30px; 
+  padding-left: 1.5em; 
+  font-size: 16px; 
+  height: 18px; 
+}
+  #sortable li span { 
+  position: absolute; 
+  margin-left: -1.3em;
+  bottom: 1px; 
+}
